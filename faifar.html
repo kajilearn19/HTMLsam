@@ -1,0 +1,428 @@
+<!-- 
+
+<html>
+	<head>
+	<title>User Profile Dashbord</title>
+	</head>
+	
+	<body>
+	
+		<aside>
+			<h2>Dashbord</h2>
+			<nav>
+				<ul>
+					<li>Home</li>
+					<li>Profile</li>
+					<li>Analytics</li>
+					<li>Projects</li>
+					<li>Settings</li>
+					<li>Logout</li>
+				</ul>
+			</nav>	
+		</aside>
+		
+		<header>
+			<div>
+				<h1>User Profile</h1>
+				<input type="text" placeholder="search...">	
+			</div>
+		</header>
+		
+		<section>
+			<article>
+				<h2>John Doe</h2>
+				<p>Senior Web Developer</p>
+				<p>email</p>
+				<p>location</p>
+			</article>	
+		</section>
+		
+		
+		<h1>Recent Activity</h1>
+		
+		<section>
+			<article>
+				<h3>18</h3>
+				<p>projects</p>
+			</article>
+			<article>
+				<h3>248</h3>
+				<p>tasks compleated</p>
+			</article>
+		</section>
+		
+		
+		
+		<ul>
+			<li>updated profile information</li>
+			<li>completed HTML dashboard</li>
+		</ul>
+		<footer>copyrighted @</footer>
+	</body>
+</html>
+
+----------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Demo</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: #ff4d4d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: orange;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+        }
+
+        section {
+            background: gold;
+            width: 70%;
+            padding: 20px;
+        }
+
+        article {
+            background: lightgreen;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        aside {
+            background: skyblue;
+            width: 30%;
+            padding: 20px;
+        }
+
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        figure img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: purple;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Semantic Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Main Section</h2>
+
+            <article>
+                <h3>Article 1</h3>
+                <p>This is the first article.</p>
+            </article>
+
+            <article>
+                <h3>Article 2</h3>
+                <p>This is the second article.</p>
+            </article>
+
+            <figure>
+                <img src="https://via.placeholder.com/200" alt="Sample image">
+                <figcaption>This is a sample image caption.</figcaption>
+            </figure>
+        </section>
+
+        <aside>
+            <h3>Sidebar</h3>
+            <p>Extra information goes here.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+</body>
+</html>
+
+----------------------------------------------------------
+
+<html>
+	<head>
+		<style>
+			*
+			{
+				margin:0;
+				padding:0;
+			}
+			body
+			{
+				background-color:lightgrey;
+				font-family:cursive;
+				color:navy;
+				padding:30px
+			}
+			h1
+			{
+				text-align:center;
+				font-size:40px;
+			}
+			h2
+			{
+				text-decoration:underline;
+				font-weight:600;
+				margin-top:15px;
+				margin-bottom:15px;
+			}
+			.project
+			{
+				background-color:#fefefe;
+				padding:10px;
+				border-left:4px;
+				border-left-color:#28a745;
+				border-left-style:solid;
+				margin-bottom:10px;
+				border-radius:5px;
+			}
+			h3
+			{
+				color:#006600;
+				margin-bottom:5px;
+			}
+			footer
+			{
+				background-color:#003366;
+				color:white;
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="color:navy;">1st CSS Assignment</h1>
+		<h2 style="color:blue;">Student Information</h2>
+		<p> <b>Full Name</b>: R.K <br>
+		 <b>Reg Number</b>: 2023CSC087 <br>
+		 <b>Course</b>: Human Computer Interaction Practical<br>
+		 <b>Department</b>: Department of Computer Science<br>
+		 <b>University</b>: University of Jaffna<br>
+		</p>
+		
+		<h2 style="color:red;">Favorite Subjects</h2>
+		<ul>
+			<li>Web Design & Development</li>
+			<li>Software Engineering</li>
+			<li> Graphic Design</li>
+			
+		</ul>
+		<h2 style="color:red;">Skills & Experience</h2>
+		<ul>
+			<li>Proficient in HTML, CSS, JavaScript</li>
+			<li>Familiar with Bootstrap and responsive design</li>
+			<li>Experienced in Adobe XD & Figma for UI design</li>
+			
+		</ul>
+		
+		<h2 style="color:red;">Projects</h2>
+		<div class="project">
+			<h3>Portfolio Website</h3>
+			<p> Designed and developed a personal portfolio site using HTML, CSS, and JavaScript to
+				showcase academic and freelance work.</p>
+		</div>
+		<div class="project">
+			<h3>Online Quiz App</h3>
+			<p> Built a timed online quiz using JavaScript and CSS, with real-time score tracking and
+				responsive UI.
+			</p>
+		</div>
+		<h2 style="color:red;">Career Goals</h2>
+		<p>I aspire to become a skilled front-end developer who builds beautiful, responsive, and user-friendly 
+websites...</p>
+		<footer>Email: mhdaqeel1130@gmail.com | Phone: +94 77 62 777 86<br>
+Website: www.github.com/MhdAqeel<br>
+LinkedIn: linkedin.com/in/Mohamad Aqeel | Twitter: @no_twitter_dev</footer>
+	</body>
+</html>
+
+-----------------------------------
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        Home | About | Projects | Contacts
+    </nav>
+
+    <!-- Main Content -->
+    <section>
+        <h2>Welcome</h2>
+        <p>Welcome to my personal website.</p>
+
+        <!-- Article 1 -->
+        <article>
+            <h3>Latest Achievements</h3>
+            <ul>
+                <li>Completed HTML course</li>
+                <li>Built mini website</li>
+                <li>Learned CSS basics</li>
+                <li>Started JavaScript</li>
+            </ul>
+        </article>
+
+        <!-- Article 2 -->
+        <article>
+            <h3>Upcoming Tasks</h3>
+            <ol>
+                <li>Learn CSS</li>
+                <li>Practice HTML</li>
+                <li>Study JavaScript</li>
+                <li>Create portfolio</li>
+            </ol>
+        </article>
+    </section>
+
+    <!-- Optional Aside -->
+    <aside>
+        <p>Side notes or announcements</p>
+    </aside>
+
+    <!-- Optional Figure -->
+    <figure>
+        <img src="sample.jpg" width="150">
+        <figcaption>Website Banner</figcaption>
+    </figure>
+
+    <!-- Footer -->
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+</body>
+</html>
+
+------------------------------------------------
+
+Inline CSS 
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:white; background:blue; text-align:center;">
+    My Website
+</h1>
+
+<p style="color:red; font-size:20px;">
+    Welcome to my website
+</p>
+
+</body>
+</html>
+
+--------------------------------------------
+
+Internal CSS
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            color: white;
+            background: blue;
+            text-align: center;
+        }
+
+        p {
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>My Website</h1>
+<p>Welcome to my website</p>
+
+</body>
+</html>
+
+------------------------------------------------
+External CSS
+
+File 1: index.HTML------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>My Website</h1>
+    <p>Welcome to my website</p>
+</body>
+</html>
+
+style.css-----------------
+
+h1 {
+    color: white;
+    background: blue;
+    text-align: center;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+
+-->
+
